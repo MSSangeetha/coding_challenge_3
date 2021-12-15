@@ -6,6 +6,9 @@ public class Coding_Challenge_3 {
         if(str1.length()>str2.length()){
             return str1;
         }
+        else if (str1.length() == str2.length()){
+            return str1;
+        }
         else{
             return str2;
         }
